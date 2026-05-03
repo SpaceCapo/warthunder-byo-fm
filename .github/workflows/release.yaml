@@ -22,21 +22,22 @@ jobs:
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Prepare package
+        env:
+          VERSION: ${{ steps.vars.outputs.version }}
         run: |
-          VERSION=${{ steps.vars.outputs.version }}
-
           mkdir -p build/fm
 
           # Copy files into desired structure
-          cp ./$VERSION/fm_data_db.csv build/fm/
-          cp ./$VERSION/fm_names_db.csv build/fm/
+          cp ./$VERSION/fm/fm_data_db.csv build/fm/
+          cp ./$VERSION/fm/fm_names_db.csv build/fm/
+          cp ./$VERSION/version build/
 
           # Create version file
-          echo "$VERSION" > build/version
+          echo "$VERSION" > build/version_tag
 
           # Zip it
           cd build
-          zip -r warthunder-byo-fm.zip fm version
+          zip -r warthunder-byo-fm.zip fm version version_tag
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
