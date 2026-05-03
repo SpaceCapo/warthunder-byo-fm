@@ -27,6 +27,7 @@ jobs:
       - name: Prepare package
         env:
           VERSION: ${{ steps.vars.outputs.version }}
+          TAG: ${{ steps.vars.outputs.tag }}
         run: |
           mkdir -p build/fm
 
@@ -35,8 +36,8 @@ jobs:
           cp ./$VERSION/fm/fm_names_db.csv build/fm/
           cp ./$VERSION/fm/version build/
 
-          # Create version file
-          echo "$VERSION" > build/version_tag
+          # Create version_tag file
+          echo "$TAG" > build/version_tag
 
           # Zip it
           cd build
