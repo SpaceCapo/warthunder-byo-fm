@@ -30,7 +30,7 @@ jobs:
           # Copy files into desired structure
           cp ./$VERSION/fm/fm_data_db.csv build/fm/
           cp ./$VERSION/fm/fm_names_db.csv build/fm/
-          cp ./$VERSION/version build/
+          cp ./$VERSION/fm/version build/
 
           # Create version file
           echo "$VERSION" > build/version_tag
