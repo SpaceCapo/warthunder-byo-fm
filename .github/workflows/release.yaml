@@ -43,7 +43,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: Release ${{ steps.vars.outputs.tag }}
-          tag_name: ${{ steps.vars.outputs.tag }}
           files: build/warthunder-byo-fm.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          generate_release_notes: true
