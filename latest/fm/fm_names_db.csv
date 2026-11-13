@@ -7,10 +7,8 @@ a-26c-45-dt;a-26c;bomber;A-26C-45DT
 a-35b;a_35b;bomber;A-35B
 a2d;a2d;strike;A2D-1 Skyshark
 a_109_eoa2;a_109_eoa2;helicopter;A.109EOA-2
-a_10a_early;a-10a_early;strike;A-10A Thunderbolt II (Early)
 a_10a_late;a-10a_late;strike;A-10A Thunderbolt II (Late)
 a_10c;a-10c;strike;A-10C Thunderbolt II
-a_129_a;a_129_int;helicopter;A-129 International Prototype
 a_129_d;a_129_d;helicopter;AH-129D Mangusta
 a_20g_30_ussr;a-20g;bomber;A-20G-30 Havoc (USSR)
 a_29_hudson;a_29_hudson;bomber;A-29
@@ -41,12 +39,6 @@ ah_1z;ah_1z;helicopter;AH-1Z
 ah_2_rooivalk;ah_2_rooivalk;helicopter;Rooivalk Mk1F CSH
 ah_56a;ah_56a;helicopter;AH-56A
 ah_60_iaf;ah_60_iaf;helicopter;AH-60 Battle Hawk (Israel)
-ah_64d_i_saraph;ah_64d_i_saraph;helicopter;AH-64D-I Saraph
-ah_64e;ah_64e;helicopter;AH-64E
-ah_64e_britain;ah_64e;helicopter;AH Mk.2 Apache
-ah_64e_china;ah_64e;helicopter;AH-64E (China)
-ah_64e_indonesia;ah_64e;helicopter;AH-64E (Indonesia)
-ah_64e_netherlands;ah_64e;helicopter;AH-64E (Netherlands)
 ah_mk1;ah_mk1;helicopter;AH Mk.1 Apache
 ahs;ahs;helicopter;Attack Helicopter System
 amx;amx_italy;strike;AMX Ghibli
@@ -61,8 +53,6 @@ av_8b_plus;av_8b_plus;strike;AV-8B Plus Harrier
 av_8b_plus_italy;av_8b_plus;strike;AV-8B Plus Harrier (Italy)
 av_8c;av_8c;strike;AV-8C Harrier
 avenger_mk1;tbf-1c;bomber;Avenger Mk II
-aw_159;aw_159;helicopter;AW159 Wildcat HMA2
-aw_249_pre_serie;aw_249;helicopter;AW249 Fenice (pre-series)
 b-17e;b-17e;bomber;B-17E Flying Fortress
 b-17e_japan;b-17e;bomber;B-17E Flying Fortress (Japan)
 b-17e_late;b-17e_late;bomber;B-17E Flying Fortress /Late
@@ -303,7 +293,6 @@ f_16xl;f_16xl;fighter;F-16XL-1
 f_20a;f_20a;fighter;F-20A Tigershark
 f_222_2;f_222_2;bomber;F.222.2
 f_2a;f_2a;fighter;F-2A Viper Zero
-f_2a_adtw;f_2a_adtw;fighter;F-2A ADTW Viper Zero
 f_2a_killstreak;f_2a;fighter;F-2A Viper Zero
 f_4e_aup_greece;f-4f_kws_lv;fighter;F-4E AUP Phantom II
 f_4e_event;f-4e;fighter;F-4E Phantom II
@@ -341,8 +330,6 @@ g5n1;g5n1;bomber;G5N1 Shinzan
 g5n2;g5n1;bomber;G5N2 Shinzan
 g8n1;g8n1;bomber;G8N1 Renzan
 g8n2;g8n1;bomber;G8N2 Renzan
-g_lynx;g_lynx;helicopter;G-LYNX
-h145m;h145m;helicopter;H145M
 h6k4;h6k4;bomber;H6K4
 h8k2;h8k2;bomber;H8K2
 h8k3;h8k3;bomber;H8K3
@@ -642,8 +629,6 @@ saab_ja37;saab_ja37;fighter;JA37C Jaktviggen
 saab_ja37d;saab_ja37;fighter;JA37D Viggen
 saab_ja37di;saab_ja37;fighter;JA37DI Viggen
 saab_ja37di_f21;saab_ja37;fighter;JA37DI Viggen F21
-saab_jas39_pre_serie;saab_jas39_pre_serie;fighter;JAS39 (39-5 pre-serie)
-saab_jas39a;saab_jas39a;fighter;JAS39A Gripen
 saab_jas39c;saab_jas39c;fighter;JAS39C Gripen
 saab_jas39c_hungary;saab_jas39c;fighter;JAS39EBS HU C Gripen (Hungary)
 saab_jas39c_south_africa;saab_jas39c;fighter;JAS39C Gripen (South Africa)
@@ -841,6 +826,5 @@ yak_141;yak_141;fighter;Yak-141
 z_1007_bis_serie3;z_1007_bis_serie3;bomber;Z.1007 bis serie 3
 z_1007_bis_serie5;z_1007_bis_serie5;bomber;Z.1007 bis serie 5
 z_19;z_19;helicopter;Z-19
-z_19e;z_19e;helicopter;Z-19E
 z_9w;z_9w;helicopter;Z-9W
 z_9wa;z_9wa;helicopter;Z-9WA
